@@ -44,6 +44,7 @@ public class GenerationPresenter implements GenerationContract.Presenter {
                             path + "/" + fileName);
             mWalletGenerationView.showGeneratedWallet(credentials.getAddress());
             Log.e("TAG", "generateWallet: " + credentials.getAddress() + " " + credentials.getEcKeyPair().getPublicKey());
+            Log.e("TAG", "generateWallet: privatekey" + credentials.getAddress() + " " + credentials.getEcKeyPair().getPrivateKey());
         } catch (NoSuchAlgorithmException
                 | NoSuchProviderException
                 | InvalidAlgorithmParameterException

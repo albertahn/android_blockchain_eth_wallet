@@ -63,3 +63,8 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+misc.xml
+modules.xml
+runConfigurations.xml
+vcs.xml
+Project.xml
