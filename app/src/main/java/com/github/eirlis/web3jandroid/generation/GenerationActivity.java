@@ -17,6 +17,17 @@ import android.widget.Toast;
 import com.github.eirlis.web3jandroid.R;
 import com.github.eirlis.web3jandroid.wallet.WalletActivity;
 
+
+/**
+ *
+ * tutorials :  web3j
+ *
+ *  1.https://web3j.io
+ *  2. https://medium.com/datadriveninvestor/an-introduction-to-ethereum-development-on-android-using-web3j-and-infura-763940719997
+ *
+ *
+ */
+
 public class GenerationActivity extends AppCompatActivity implements GenerationContract.View {
 
     public static final String TAG = GenerationActivity.class.getName();
